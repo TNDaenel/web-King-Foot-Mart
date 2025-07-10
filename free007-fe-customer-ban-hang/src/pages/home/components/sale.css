@@ -1,0 +1,18 @@
+.slick-prev,
+.slick-next {
+  width: 45px !important;
+  height: 45px !important;
+  z-index: 10 !important;
+  color: white !important;
+  background: #000000a3 !important;
+  position: absolute;
+  transition: all 0.2s ease;
+  border-radius: 50% !important;
+  padding: 8px;
+}
+.slick-prev {
+  left: 10px !important;
+}
+.slick-next {
+  right: 10px !important;
+}
